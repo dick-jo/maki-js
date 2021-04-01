@@ -12,18 +12,16 @@ Stupidly simple on-scroll element reveal handler
 
 ## Quick start:
 ### 0. install via npm __(optional)__
-    `npm install maki-js`
+    npm install maki-js
 
 ### 1. include maki.js
-    `<script src="./scripts/maki.js"></script>`
+    <script src="./scripts/maki.js"></script>
 
 ### 2. include maki.css
-    `<link href="./style/maki.css type="text/css" rel="stylesheet>`
+    <link href="./style/maki.css type="text/css" rel="stylesheet>
 
 ### 3. run maki()
     `<script>maki()</script>`
 
 ### 4. add the data-maki data attribute to your target elements
-    `<div data-maki="scroll-in">Senatus Populusque Romanus</div>
-
-
+    <div data-maki="scroll-in">Senatus Populusque Romanus</div>
