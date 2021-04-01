@@ -1,6 +1,11 @@
+/* Hide all tagged elements pending scroll intersection */
+
 [data-maki] {
     opacity: 0;
 }
+
+
+/* Scroll-in  */
 
 [data-maki-set="scroll-in"] {
     animation-name: scroll-in;
