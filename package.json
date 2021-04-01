@@ -1,0 +1,27 @@
+{
+  "name": "maki-js",
+  "version": "1.0.0",
+  "description": "Stupidly simple on-scroll element reveal handler",
+  "main": "maki.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dick-jo/maki.js.git"
+  },
+  "keywords": [
+    "scroll",
+    "js",
+    "css",
+    "reveal",
+    "animation",
+    "scroll-in"
+  ],
+  "author": "Dick Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dick-jo/maki.js/issues"
+  },
+  "homepage": "https://github.com/dick-jo/maki.js#readme"
+}
