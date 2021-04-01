@@ -1,0 +1,20 @@
+[data-maki] {
+    opacity: 0;
+}
+
+[data-maki-set="scroll-in"] {
+    animation-name: scroll-in;
+    animation-duration: 1200ms;
+    opacity: 1;
+}
+
+@keyframes scroll-in {
+    from {
+        transform: translateY(120px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
