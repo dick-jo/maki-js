@@ -81,12 +81,10 @@
 
 @keyframes blur-in {
     from {
-        border-radius: 100%;
         filter: blur(4rem);
         opacity: 0;
     }
     to {
-        border-radius: 0%;
         filter: blur(0px);
         opacity: 1;
     }
