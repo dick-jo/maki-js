@@ -21,7 +21,29 @@ Stupidly simple on-scroll element reveal handler
     <link href="./style/maki.css type="text/css" rel="stylesheet>
 
 ### 3. run maki()
-    `<script>maki()</script>`
+    <script>maki()</script>
 
 ### 4. add the data-maki data attribute to your target elements
     <div data-maki="scroll-in">Senatus Populusque Romanus</div>
+
+## Animations
+
+### scroll-in
+`[data-maki="scroll-in"]`
+
+Elements scroll in on the Y axis
+
+### scale-x-in
+`[data-maki="scale-x-in"]`
+
+Elements scale in on the X axis, beginning from the top left corner
+
+### scale-y-in
+`[data-maki="scale-y-in"]`
+
+Elements scale in on the Y axis, beginning from the top left corner
+
+### blur-in
+`[data-maki="scale-x-in"]`
+
+Elements resolve to a focus from an initial blurred state

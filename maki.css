@@ -5,11 +5,18 @@
 }
 
 
+/* Default animation duration value */
+
+:root {
+    --maki-duration: 1200ms;
+}
+
+
 /* Scroll-in  */
 
 [data-maki-set="scroll-in"] {
     animation-name: scroll-in;
-    animation-duration: 1200ms;
+    animation-duration: var(--maki-duration);
     opacity: 1;
 }
 
@@ -20,6 +27,67 @@
     }
     to {
         transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+/* Scale-in */
+
+[data-maki-set="scale-x-in"] {
+    animation-name: scale-x-in;
+    animation-duration: var(--maki-duration);
+    opacity: 1;
+    transform-origin: 0 0;
+}
+
+@keyframes scale-x-in {
+    from {
+        transform: scaleX(0);
+        opacity: 0;
+    }
+    to {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+[data-maki-set="scale-y-in"] {
+    animation-name: scale-y-in;
+    animation-duration: var(--maki-duration);
+    opacity: 1;
+    transform-origin: 0 0;
+}
+
+@keyframes scale-y-in {
+    from {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+    to {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
+
+
+/* Blur-in */
+
+[data-maki-set="blur-in"] {
+    animation-name: blur-in;
+    animation-duration: var(--maki-duration);
+    opacity: 1;
+}
+
+@keyframes blur-in {
+    from {
+        border-radius: 100%;
+        filter: blur(4rem);
+        opacity: 0;
+    }
+    to {
+        border-radius: 0%;
+        filter: blur(0px);
         opacity: 1;
     }
 }

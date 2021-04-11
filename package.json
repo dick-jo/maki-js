@@ -1,6 +1,6 @@
 {
     "name": "maki-js",
-    "version": "1.0.1",
+    "version": "1.0.5",
     "description": "Stupidly simple on-scroll element reveal handler",
     "main": "maki.js",
     "scripts": {
