@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../maki.css" rel="stylesheet" type="text/css">
+
+
+    <style>
+        .stub {
+            height: 4px;
+            width: 24px;
+            background-color: blue;
+        }
+
+        body * {
+            margin-bottom: 56px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="stub" data-maki="scroll-in"></div>
+    <div class="stub" data-maki="scale-x-in"></div>
+    <div class="stub" data-maki="scale-y-in"></div>
+    <div class="stub" data-maki="blur-in"></div>
+
+    <img src="matt.png" width="12%" data-maki="scroll-in">
+    <br>
+    <img src="matt.png" width="12%" data-maki="scale-x-in">
+    <br>
+    <img src="matt.png" width="12%" data-maki="scroll-y-in">
+    <br>
+    <img src="matt.png" width="12%" data-maki="blur-in">
+    <br>
+
+    <!--  -->
+    <script src="../maki.js"></script>
+    <script>
+        maki()
+    </script>
+
+</body>
+
+</html>
